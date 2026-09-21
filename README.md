@@ -1,2 +1,2 @@
-# Logitech Product Management Tool
+# Logitech Product Tool
 Práctica UT12 Programación - DAM
