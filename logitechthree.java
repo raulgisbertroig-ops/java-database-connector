@@ -6,10 +6,10 @@ public class logitechthree implements Serializable {
  // 2. Etiqueta de versión para consistencia 
  private static final long serialVersionUID = 1L; 
   
- public String usuario; 
+ private String usuario; 
   
- // 3. 'transient' evita que este dato sensible se guarde en disco 
- public transient String password; 
+ // 3. 'transient' prevents this field from being included in standard Java serialization.
+ private transient String password; 
   
- public int volumen; 
+ private int volumen; 
 } 
